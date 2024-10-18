@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+    <link rel="stylesheet" href="estilos/styles.css">
+
+</head>
+<body>
+    <!--Título-->
+    <div>
+        <h1>Calcular Factorial</h1>
+    </div>
+    
+
+    <div>
+        <!--Campo para ingresar el valor del que queremos calcular el factorial-->
+        <label for= "valor">Ingrese un valor </label>
+        <!--Definir el valor solo de tipo numerico-->
+        <input type="number" id="valor" required>
+        <!--Boton para calcular-->
+        <button onclick="factorial1()">Calcular el Factorial</button>  
+    </div>
+    <div>
+        <!--Texto de la respuesta-->
+        <h3>Respuesta=</h3>
+        <!--id de la respuesta al calculo-->
+        <p id="respuesta"></p>
+    </div>
+
+    <script src="js/main.js"></script>
+    
+    
+</body>
+</html>
